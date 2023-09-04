@@ -21,6 +21,7 @@ CMD ["npm","run","dev"]
 
 Step 3) Building Docker-Image
 docker build -t <DockerHub_Username>/<Imagename> .
+
 Step 4) Push the Image To DockerHub
 Now push this Docker Image to DockerHub so our Deployment file can pull this image & run the app in Kubernetes pods.
 First login to your DockerHub account using Command i.e docker login and give your username & password.
